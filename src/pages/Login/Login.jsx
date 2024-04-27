@@ -12,6 +12,7 @@ const Login = () => {
         const email=form.email.value;
         const password=form.password.value; 
         console.log(email,password);
+        
         signinUser(email,password)
         .then(signinusers=>{
             const user=signinusers.user;
